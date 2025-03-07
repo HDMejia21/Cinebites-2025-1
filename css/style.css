@@ -1,0 +1,196 @@
+body {
+    font-family:"Spot Normal", spot;
+    background-color: #FFF3E1;
+    margin: 10;
+    padding:10;
+}
+
+header {
+	background-color: transparent;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px;
+    color: white;
+
+}
+
+main {
+    padding: 20px;
+}
+
+
+nav button {
+    background-color: #FFF3E1;
+    border: 2px solid #0A9271;
+    color: #0A9271;
+    padding: 8px 12px;
+    margin: 10px;
+    cursor: pointer;
+    border-radius: 10px;
+    font-weight: bold;
+	font-size: 18px;
+	font-family: "Spot Normal", spot;
+	letter-spacing: 2.5px;
+}
+
+nav button:hover {
+    background-color: #0A9271;
+    color: white;
+}
+
+
+#top-cortos,
+#proximos-lanzamientos,
+#Shortfilmaboutlove{
+    margin-bottom: 30px;
+    text-align: center;
+	letter-spacing: 2.5px;
+	align-content: center;
+}
+
+#equipo{
+	text-align: left;
+	align-content: left;
+}
+equipo{
+	text-align: left;
+	align-content: left;
+}
+#top-cortos {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    justify-content: center;
+	letter-spacing: 2.5px;
+}
+
+#top-cortos-img img{
+    border-radius: 10px;
+    background-color: #c4c4c4;
+	letter-spacing: 2.5px;
+	 float: "left";
+	margin-left: -20px; 
+}
+#row {
+    display: flex;
+    justify-content: flex-start; 
+    align-items: flex-start; 
+    gap: 10px; 
+}
+
+.top-cortos-texto h2 {
+    margin: 0;
+    color: #065C47;
+	font-size: 32px;
+	letter-spacing: 2.5px;
+	text-align: center;
+	margin-right: -350px;
+}
+
+#proximos-lanzamientos h2, 
+#equipo h2, #Shortfilmaboutlove
+{
+    text-align: center;
+    background-color: #065C47;
+    padding: 10px;
+    color: white;
+    border-radius: 10px;
+	letter-spacing: 2.5px;
+}
+
+.carteles, .imagenes-equipo {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+
+.carteles img, .imagenes-equipo img, .imagen-2 img{
+    width: auto;
+    height: 350px;
+    border-radius: 10px;
+    box-shadow: 3px 3px 10px rgba(0,0,0,0.2);
+	align-content: left
+}
+.imagenes-equipo img{
+	margin-left: -50px; 
+	height: 500px;
+	width: auto;
+}
+.ASFAL-img img{ 
+	width: auto;
+    height: 450px;
+    border-radius: 10px;
+    box-shadow: 2px 2px 5px rgba(0,0,0,0.4);
+	margin-right: 0px;
+}
+
+footer {
+    background-color: #065C47;
+    color: white;
+    text-align: center;
+    padding: 15px;
+    font-size: 18px;
+    margin-top: 20px;
+	letter-spacing: 2.5px;
+	
+}
+
+#grid img{
+	 margin-bottom: 30px;
+    text-align: center;
+	letter-spacing: 2.5px;
+	align-content: center;
+	width: auto;
+    height: 500px;
+	  border-radius: 10px;
+    box-shadow: 2px 2px 5px rgba(0,0,0,0.4);
+	
+}
+#grid h2{
+	 text-align: center;
+    background-color: #065C47;
+    padding: 10px;
+    color: white;
+    border-radius: 10px;
+	letter-spacing: 2.5px;
+}	
+.cortos-texto{
+	text-align: center;
+	margin-left: 50px; 
+	margin-right: 50px;
+}
+.blank-img{
+	margin-left: 500px; 
+	height: 500px;
+	width: auto;
+}
+
+h1{
+		 text-align: center;
+    background-color: #065C47;
+    padding: 10px;
+    color: white;
+    border-radius: 10px;
+	letter-spacing: 2.5px;
+}
+
+#themoogai h2{
+	text-align: center;
+    background-color: #065C47;
+    padding: 10px;
+    color: white;
+    border-radius: 10px;
+	letter-spacing: 2.5px;
+}
+.moogai-img img{
+	margin-left: 500px; 
+	height: 500px;
+	width: auto;
+}
+.moogai-texto{
+	text-align: center;
+	margin-left: 50px; 
+	margin-right: 50px;
+}
+
