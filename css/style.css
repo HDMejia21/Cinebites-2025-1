@@ -1,5 +1,5 @@
 body {
-    font-family:"Spot Normal", spot;
+    font-family: "Spot Normal", spot;
     background-color: #FFF3E1;
     margin: 10;
     padding:10;
@@ -39,6 +39,10 @@ nav button:hover {
     color: white;
 }
 
+.fa-user{
+	color: #0A9271;
+	
+}
 
 #top-cortos,
 #proximos-lanzamientos,
@@ -65,12 +69,12 @@ equipo{
 	letter-spacing: 2.5px;
 }
 
-#top-cortos-img img{
+.top-cortos-img img{
     border-radius: 10px;
     background-color: #c4c4c4;
 	letter-spacing: 2.5px;
-	 float: "left";
-	margin-left: -20px; 
+	height: 300px;
+	width: auto;
 }
 #row {
     display: flex;
@@ -136,61 +140,60 @@ footer {
 	
 }
 
-#grid img{
-	 margin-bottom: 30px;
-    text-align: center;
-	letter-spacing: 2.5px;
-	align-content: center;
-	width: auto;
-    height: 500px;
-	  border-radius: 10px;
-    box-shadow: 2px 2px 5px rgba(0,0,0,0.4);
-	
-}
-#grid h2{
-	 text-align: center;
-    background-color: #065C47;
-    padding: 10px;
-    color: white;
-    border-radius: 10px;
-	letter-spacing: 2.5px;
-}	
 .cortos-texto{
 	text-align: center;
 	margin-left: 50px; 
 	margin-right: 50px;
 }
-.blank-img{
-	margin-left: 500px; 
-	height: 500px;
-	width: auto;
-}
 
-h1{
-		 text-align: center;
-    background-color: #065C47;
-    padding: 10px;
-    color: white;
-    border-radius: 10px;
-	letter-spacing: 2.5px;
-}
 
-#themoogai h2{
+#laluna {
+	
 	text-align: center;
-    background-color: #065C47;
+    color: #065C47;
     padding: 10px;
-    color: white;
-    border-radius: 10px;
-	letter-spacing: 2.5px;
-}
-.moogai-img img{
-	margin-left: 500px; 
-	height: 500px;
-	width: auto;
-}
-.moogai-texto{
-	text-align: center;
-	margin-left: 50px; 
-	margin-right: 50px;
+	margin-bottom: 5px
+		
 }
 
+#laluna li{
+	text-align: left;
+	margin-top: 5px
+		
+	
+}
+.fondo{
+	
+	background-color: #065C47;
+	color: rgba(255,255,255,1.00);
+	border-radius: 0.5pc;
+}
+
+#blank{
+	text-align: center;
+    color: #065C47;
+    padding: 10px;
+	margin-bottom: 5px
+}
+
+.blank-shore img{
+	height: 700px;
+	
+}
+
+.fondo-blank{
+	background-color: #065C47;
+	color: rgba(255,255,255,1.00);
+	border-radius: 0.5pc;
+}
+
+#blank li{
+	text-align: left;
+	margin-top: 5px
+}
+
+.contacto{
+	align-content: center;
+	margin-left: 500px;
+	padding-bottom: 60px;
+}
