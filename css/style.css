@@ -173,7 +173,8 @@ footer {
 	text-align: center;
     color: #065C47;
     padding: 10px;
-	margin-bottom: 5px
+	margin-bottom: 5px;
+	font-size: 24px;
 }
 
 .blank-shore img{
@@ -189,7 +190,8 @@ footer {
 
 #blank li{
 	text-align: left;
-	margin-top: 5px
+	margin-top: 5px;
+	font-size: 20px;
 }
 
 .contacto{
