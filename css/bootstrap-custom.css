@@ -7,7 +7,7 @@ a{
 	font-size:16px;
 }
 .navbar-light .navbar-nav .nav-link{
-	background-color: #FFF3E1;
+		background-color: #FFF3E1;
     border: 2px solid #0A9271;
     color: #0A9271;
     padding: 8px 12px;
@@ -16,7 +16,7 @@ a{
     border-radius: 10px;
     font-weight: bold;
 	font-size: 18px;
-	font-family: "Spot Normal", spot;
+	font-family: "Nunito";
 	letter-spacing: 2.5px;
 }
 .navbar-light .navbar-nav .nav-link:hover{
@@ -120,12 +120,6 @@ a{
     left: 0;
     min-height: 500px;
 }
-
-
-
-
-
-
 
 
 

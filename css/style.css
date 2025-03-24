@@ -1,8 +1,9 @@
 body {
-    font-family: "Spot Normal", spot;
+    font-family: "Nunito";
     background-color: #FFF3E1;
     margin: 10;
     padding:10;
+	color: #065C47;
 }
 
 header {
@@ -30,7 +31,7 @@ nav button {
     border-radius: 10px;
     font-weight: bold;
 	font-size: 18px;
-	font-family: "Spot Normal", spot;
+	font-family: "Nunito";
 	letter-spacing: 2.5px;
 }
 
@@ -46,7 +47,7 @@ nav button:hover {
 
 #top-cortos,
 #proximos-lanzamientos,
-#Shortfilmaboutlove{
+#Shortfilmaboutlove, #categories{
     margin-bottom: 30px;
     text-align: center;
 	letter-spacing: 2.5px;
@@ -93,7 +94,7 @@ equipo{
 }
 
 #proximos-lanzamientos h2, 
-#equipo h2, #Shortfilmaboutlove
+#equipo h2, #Shortfilmaboutlove h2
 {
     text-align: center;
     background-color: #065C47;
@@ -194,8 +195,108 @@ footer {
 	font-size: 20px;
 }
 
+#grupos{
+	 
+    gap: 10px;
+	letter-spacing: 2.5px;
+	text-align: center;
+	color: #065C47;
+}
+
 .contacto{
 	align-content: center;
 	margin-left: 500px;
 	padding-bottom: 60px;
 }
+
+#categories{
+	
+	gap: 10px;
+	letter-spacing: 2.5px;
+	text-align: center;
+	color: #065C47;
+	
+}
+
+.boton-personalizado {
+    background-color: #FFF3E1;
+    border: 2px solid #065C47;
+    color: #065C47;
+    padding: 8px 12px;
+    margin: 10px;
+    cursor: pointer;
+    border-radius: 10px;
+    font-weight: bold;
+    font-size: 18px;
+    font-family: "Nunito";
+    letter-spacing: 2.5px;
+}
+
+
+.boton-personalizado:hover {
+    background-color: #065C47;
+    color: white;
+}
+
+.texto-comunidad{
+	
+	text-align: center;
+	margin-bottom: 5px
+	
+}
+
+
+.search-bar input {
+        padding: 5px;
+    }
+    .profile-section {
+        background-color: #00704A;
+        color: white;
+        padding: 20px;
+        text-align: center;
+    }
+    .profile-pic i {
+        font-size: 50px;
+    }
+    .edit-profile {
+        background-color: white;
+        color: #00704A;
+        border: none;
+        padding: 5px 10px;
+        cursor: pointer;
+    }
+    .ratings-section {
+        padding: 20px;
+    }
+    .ratings-container {
+        display: flex;
+        gap: 15px;
+        overflow-x: auto;
+    }
+    .movie img {
+        width: 150px;
+        border-radius: 10px;
+    }
+    .add-movie {
+        width: 150px;
+        height: 225px;
+        background-color: #00704A;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 30px;
+        color: white;
+        border-radius: 10px;
+    }
+
+.character img {
+    width: 100%; 
+    max-width: 250px; 
+    height: 250px; 
+    object-fit: cover; 
+    border-radius: 20px; 
+	margin-bottom: 40px;
+	margin-right: 20px;
+	
+}
+
